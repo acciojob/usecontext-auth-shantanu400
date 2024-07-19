@@ -18,7 +18,7 @@ const Authenticate = () => {
     <p>you are not authenticated</p>
     
 }
-<input type="checkbox" onChange={handleauth}></input>
+<input type="checkbox" onChange={handleauth}>I'm not a robot</input>
 
 
   </>
