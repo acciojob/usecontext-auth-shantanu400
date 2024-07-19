@@ -15,7 +15,7 @@ const Authenticate = () => {
     auth?
     <p className='authText'>you are now authenticated, you can proceed</p>
     :
-    <p className='authText'>you are not authenticated</p>
+    <p>you are not authenticated</p>
     
 }
 <input type="checkbox" onChange={handleauth}></input>
