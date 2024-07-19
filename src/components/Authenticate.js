@@ -4,7 +4,7 @@ import { Authcontext } from './Contextcomp'
 
 const Authenticate = () => {
     
-    const {auth,setauth}=useContext(Authcontext);
+    const {auth,setauth,authText}=useContext(Authcontext);
     const handleauth=(e)=>{
       setauth(e.target.checked)
     }
@@ -13,9 +13,9 @@ const Authenticate = () => {
 
 {
     auth?
-    <p>you are now authenticated, you can proceed</p>
+    <p className='authText'>you are now authenticated, you can proceed</p>
     :
-    <p>you are not authenticated</p>
+    <p className='authText'>you are not authenticated</p>
     
 }
 <input type="checkbox" onChange={handleauth}></input>
