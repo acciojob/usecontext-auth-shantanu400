@@ -13,7 +13,7 @@ const Authenticate = () => {
 
 {
     auth?
-    <p className='authText'>you are now authenticated, you can proceed</p>
+    <p className='authText'>You are now authenticated, you can proceed</p>
     :
     <p>you are not authenticated</p>
     
